@@ -1,8 +1,8 @@
 package com.carolyn.service.impl;
 
-import com.carolyn.entity.MUser;
-import com.carolyn.mapper.MUserMapper;
-import com.carolyn.service.MUSERervice;
+import com.carolyn.entity.User;
+import com.carolyn.mapper.UserMapper;
+import com.carolyn.service.UserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2023-03-01
  */
 @Service
-public class MUSERerviceImpl extends ServiceImpl<MUserMapper, MUser> implements MUSERervice {
+public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
 
 }

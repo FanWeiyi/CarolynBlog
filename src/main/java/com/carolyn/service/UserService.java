@@ -1,6 +1,6 @@
 package com.carolyn.service;
 
-import com.carolyn.entity.MUser;
+import com.carolyn.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author Carolyn
  * @since 2023-03-01
  */
-public interface MUSERervice extends IService<MUser> {
+public interface UserService extends IService<User> {
 
 }

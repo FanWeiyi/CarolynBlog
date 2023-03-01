@@ -49,8 +49,8 @@ public class CodeGenerator {
         gc.setOutputDir(projectPath + "/src/main/java");
         gc.setAuthor("Carolyn");
         gc.setOpen(false);
-        gc.setServiceName("%Service");
-        gc.setServiceImplName("%ServiceImpl");
+        gc.setServiceName("%sService");
+        gc.setServiceImplName("%sServiceImpl");
         // gc.setSwagger2(true); 实体属性 Swagger2 注解
         mpg.setGlobalConfig(gc);
 
@@ -120,7 +120,7 @@ public class CodeGenerator {
          templateConfig.setService("/templates/service.java");
          templateConfig.setController("/templates/controller.java");
 
-        templateConfig.setXml("/templates/mapper.xml");
+        templateConfig.setXml(null);
         mpg.setTemplate(templateConfig);
 
         // 策略配置

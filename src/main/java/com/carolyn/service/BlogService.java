@@ -1,6 +1,6 @@
 package com.carolyn.service;
 
-import com.carolyn.entity.MBlog;
+import com.carolyn.entity.Blog;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author Carolyn
  * @since 2023-03-01
  */
-public interface MBLOGervice extends IService<MBlog> {
+public interface BlogService extends IService<Blog> {
 
 }
