@@ -1,6 +1,6 @@
-package com.baomidou.ant.blog.mapper;
+package com.carolyn.mapper;
 
-import com.baomidou.ant.blog.entity.MBlog;
+import com.carolyn.entity.MBlog;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

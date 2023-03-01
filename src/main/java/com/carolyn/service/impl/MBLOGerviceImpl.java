@@ -1,8 +1,8 @@
-package com.baomidou.ant.blog.service.impl;
+package com.carolyn.service.impl;
 
-import com.baomidou.ant.blog.entity.MBlog;
-import com.baomidou.ant.blog.mapper.MBlogMapper;
-import com.baomidou.ant.blog.service.MBLOGervice;
+import com.carolyn.entity.MBlog;
+import com.carolyn.mapper.MBlogMapper;
+import com.carolyn.service.MBLOGervice;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

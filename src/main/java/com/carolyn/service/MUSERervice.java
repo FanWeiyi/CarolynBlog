@@ -1,6 +1,6 @@
-package com.baomidou.ant.blog.service;
+package com.carolyn.service;
 
-import com.baomidou.ant.blog.entity.MUser;
+import com.carolyn.entity.MUser;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
