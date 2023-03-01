@@ -8,7 +8,7 @@ import lombok.experimental.Accessors;
 
 /**
  * <p>
- * 用户博客表
+ * 用户信息表
  * </p>
  *
  * @author Carolyn
@@ -17,21 +17,23 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-public class MBlog implements Serializable {
+public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    private Long userId;
+    private String username;
 
-    private String title;
+    private String avatar;
 
-    private String description;
+    private String email;
 
-    private String content;
+    private String password;
+
+    private Integer status;
 
     private LocalDateTime created;
 
-    private Integer status;
+    private LocalDateTime lastLogin;
 
 
 }

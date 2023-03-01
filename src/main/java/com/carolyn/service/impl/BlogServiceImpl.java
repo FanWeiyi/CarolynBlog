@@ -1,8 +1,8 @@
 package com.carolyn.service.impl;
 
-import com.carolyn.entity.MBlog;
-import com.carolyn.mapper.MBlogMapper;
-import com.carolyn.service.MBLOGervice;
+import com.carolyn.entity.Blog;
+import com.carolyn.mapper.BlogMapper;
+import com.carolyn.service.BlogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2023-03-01
  */
 @Service
-public class MBLOGerviceImpl extends ServiceImpl<MBlogMapper, MBlog> implements MBLOGervice {
+public class BlogServiceImpl extends ServiceImpl<BlogMapper, Blog> implements BlogService {
 
 }
