@@ -2,6 +2,9 @@ package com.carolyn.mapper;
 
 import com.carolyn.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+
+import javax.annotation.ManagedBean;
 
 /**
  * <p>
@@ -11,6 +14,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author Carolyn
  * @since 2023-03-01
  */
+@Mapper
 public interface UserMapper extends BaseMapper<User> {
 
 }
