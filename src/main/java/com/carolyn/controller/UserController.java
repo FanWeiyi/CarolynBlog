@@ -7,10 +7,8 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.carolyn.entity.User;
 import com.carolyn.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -35,10 +33,20 @@ public class UserController {
     /**
      * 测试
      */
-    @GetMapping("/index")
-    public Object index(){
-//        return userService.getById(1L);
-        //test
-        return "hello";
+//    @GetMapping("/index")
+//    public Object index(){
+////        return userService.getById(1L);
+//        //test
+//        return "hello";
+//    }
+
+    /**
+     * 测试实体校验
+     * @param user
+     * @return
+     */
+    @PostMapping("/save")
+    public Object testUser(@Validated @RequestBody User user) {
+        return user.toString();
     }
 }
