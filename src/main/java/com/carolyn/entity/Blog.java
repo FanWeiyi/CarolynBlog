@@ -23,7 +23,7 @@ import javax.validation.constraints.NotBlank;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("user")
+@TableName("blog")
 public class Blog implements Serializable {
 
     private static final long serialVersionUID = 1L;
