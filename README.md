@@ -1,2 +1,0 @@
-# CarolynBlog
-vue+springboot blog
